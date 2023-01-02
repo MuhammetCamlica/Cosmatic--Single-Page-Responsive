@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Changa';
+}
+
+.logo-area {
+    width: 50%;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.logo-area img {
+    width: 69px;
+    height: 69px;
+    margin-right: 10px;
+}
+
+.logo-area h2 {
+    margin-bottom: 0;
+}
+
+.item-area {
+    width: 44%;
+    justify-content: center;
+    display: flex;
+    max-width: 100% ;
+}
+
+.menu-item {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+}
+
+.menu-item a {
+    width: 100%;
+    margin-left: 31px;
+    color: black;
+}
+
+.menu-item a:first-child {
+    margin-left: 5px;
+    color: black;
+}
+
+.menu-item h3 {
+    width: 99px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+
+.navbar-social {
+    width: 30%;
+    max-width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.navbar-social i.fa.fa-twitter {
+    color: black;
+    margin-left: 18px;
+    font-size: 25px;
+}
+
+.navbar-social i.fa.fa-instagram {
+    color: black;
+    margin-left: 18px;
+    font-size: 25px;
+}
+
+.navbar-social i.fa.fa-facebook {
+    color: black;
+    margin-left: 18px;
+    font-size: 25px;
+}
+
+
+/*      SLİDER AREA     */
+
+.slider-area {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Changa'
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.slider-img {
+    width: 100%;
+}
+
+
+.slider-img img {
+    width: 512px;
+    max-width: 100%;
+    display: flex;
+    border-radius: 23px;
+}
+.slider-text {
+    width: 100%;
+    display: block;
+    margin-top: 24%;
+    text-align: center;
+}
+
+.slider-text h3 {
+    font-size: 50px;
+    width: 100%;
+}
+
+.slider-text p {
+    width: 100%;
+    font-size: 17px;
+}
+
+.slider-text button {
+    width: 130px;
+    height: 39px;
+    background: transparent;
+    border: 2px solid #ba0000;
+    transition: .3s all;
+}
+
+.slider-text button:hover {
+    background: #ba0000;
+    border: 2px solid #ba0000;
+    color: white;
+    transition: .3s all;
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+
+
+/*      ABOUT US      */
+
+.about-head-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.about-us-area {
+    width: 100%;
+    margin-top: 7%;
+    font-family: 'Changa'
+}
+
+.about-card-area {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.about-card-text {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.about-card-text h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.about-card-text p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.card-area {
+    background: #f2f2f2;
+    margin-left: 25px;
+    width: 25%;
+    max-width: 30%;
+    padding-top: 1rem;
+}
+
+i.fa.fa-heart-o {
+    color: #ff2b09;
+    font-size: 55px;
+    width: 100%;
+    text-align: center;
+}
+
+i.fa.fa-smile-o {
+    color: #ff2b09;
+    font-size: 55px;
+    width: 100%;
+    text-align: center;
+}
+
+i.fa.fa-sun-o {
+    color: #ff2b09;
+    font-size: 55px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*      ACCORDION       */
+
+
+.accordion-area {
+    width: 100%;
+    margin-top: 18%;
+    font-family: 'Changa';
+}
+
+.accordion-text {
+    width: 100%;
+    margin-top: 12%;
+}
+
+.accordion-text h3 {
+    font-size: 55px;
+    width: 100%;
+    font-family: 'Changa';
+}
+
+.accordion-text p {
+    font-size: 17px;
+    font-family: 'Dancing Script';
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;
+}
+
+.card {
+    border: none;
+}
+
+h2.mb-0 {
+    width: 100%;
+    text-align: end;
+    display: flex;
+    align-items: center;
+}
+
+div#headingOne {
+    width: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    background: transparent;
+}
+div#collapseOne {
+    border-bottom: 1px solid;
+}
+
+div#headingTwo {
+    width: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    background: transparent;
+}
+div#collapseTwo {
+    border-bottom: 1px solid;
+}
+
+div#headingThree {
+    width: 100%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    background: transparent;
+}
+div#collapseThree {
+    border-bottom: 1px solid;
+}
+
+.btn-link {
+    border: none !important;
+}
+
+button.btn.btn-link.btn-block.text-left:active {
+    border: none !important;
+}
+
+i.fa.fa-angle-down {
+    cursor: pointer;
+}
+
+i.fa.fa-angle-down:hover:active {
+    color: #ba0000;
+}
+
+.accordion-img {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.accordion-img img {
+    width: 512px;
+    max-width: 100%;
+    display: flex;
+    border-radius: 23px;
+}
+
+div#accordionExample {
+    width: 100%;
+    justify-content: left;
+}
+
+/*      CHECK      */
+
+.checklist-area {
+    width: 100%;
+    padding: 15%;
+    display: block;
+    text-align: center;
+    margin-top: 31%;
+    margin-bottom: 25%;
+    background: #f2f2f2;
+    font-family: 'Changa';
+}
+
+.checklist-area h2 {
+    width: 100%;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.checklist-area h3 {
+    width: 175px;
+    max-width: 100%;
+    color: black;
+    padding: 5px 1rem 5px 1rem;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .3s all;
+}
+
+.checklist-area h3:hover {
+    border-bottom: 2px solid #ff2b09;
+    transition: .3s all;
+    }
+
+.checklist-area h3:active {
+color: #ff2b09;
+border-bottom: 2px solid #ff2b09;
+transition: .3s all;
+}
+
+.checklist-area a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+
+/*      NOTHİNG     */
+
+.nothing-area {
+    width: 100%;
+    margin-bottom: 20%;
+}
+
+.nothing-text {
+    width: 100%;
+    margin-top: 7%;
+}
+
+.nothing-text h3 {
+    font-size: 50px;
+    font-family: 'Changa';
+}
+
+.alt-bilgi p:first-child {
+    font-size: 17px;
+    font-family: 'Dancing Script';
+}
+
+.alt-bilgi p {
+    font-size: 15px;
+    font-family: 'Changa';
+}
+
+.nothing-text button {
+    width: 145px;
+    height: 39px;
+    padding: 3px;
+    background: transparent;
+    border: 2px solid #ff2b09;
+    font-weight: 500;
+    transition: .3s all;
+}
+
+.nothing-text button:hover {
+    background: #ff2b09;
+    border: 2px solid #ff2b09;
+    color: white;
+    transition: .3s all;
+}
+
+
+.nothing-img {
+    width: 100%;
+}
+
+.nothing-img img {
+    width: 520px;
+    max-width: 100%;
+    display: flex;
+    border-radius: 23px;
+    position: relative;
+    margin-bottom: 9%;
+}
+
+.ad-fiyat {
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+}
+
+.ad-fiyat p {
+    width: 100%;
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+
+.ad-fiyat p:first-child {
+    font-family: 'Changa';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.top-seller-head-text h2 {
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 45px;
+    font-family: 'Changa';
+}
+
+/*  RECOMENDED  */
+
+.recommended-area {
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.recommended-head-text h2 {
+    width: 100%;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 45px;
+    font-family: 'Changa';
+}
+
+.markalar img {
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+}
+
+
+.markalar img {
+    width: 180px;
+    height: 180px;
+    padding: 28px;
+}
+
+
+/*  COTACT US   */
+
+
+
+.contact-us-text h3 {
+    width: 100%;
+    font-size: 45px;
+    margin-bottom: 25px;
+    font-family: 'Changa';
+}
+
+.contact-us-text p {
+    font-family: 'Dancing Script';
+}
+
+.contact-us-text a p{
+    font-family: 'Changa';
+}
+
+.contact-us-inpt {
+    width: 100%;
+    margin-top: 13%;
+    height: 51%;
+}
+
+.contact-us-inpt input {
+    width: 48%;
+    margin: 0;
+    padding: 20px 20px 20px 5px;
+    background: transparent;
+    border: .5px solid black;
+}
+
+button.contact-btn {
+    width: 48%;
+    height: 46%;
+    text-align: center;
+    margin-top: 6px;
+}
+
+button.contact-btn {
+    color: white;
+    font-weight: 600;
+    background: #ff2b09;
+}
+
+/*  FOOOTER  */
+
+.footer-area {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    margin-top: 15%;
+}
